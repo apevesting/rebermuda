@@ -52,7 +52,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-center items-center my-2.5">
                     <a className="border border-black text-xs md:text-sm px-6 py-2 hover:bg-black hover:text-white" href="mailto:info@rebermuda.com">
-                        Get Started
+                        Contact Us
                     </a>
                </div>
             </section>

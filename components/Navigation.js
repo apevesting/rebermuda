@@ -14,7 +14,7 @@ const Navigation = () => {
                     <span className="text-xs md:text-sm">About</span>
                 </Navbar.Link>
                 <Navbar.Link className="px-6 py-2 border border-black hover:bg-black hover:text-white" color="inherit" href="mailto:info@rebermuda.com">
-                    <span className="text-xs md:text-sm">Get Started</span>
+                    <span className="text-xs md:text-sm">Contact Us</span>
                 </Navbar.Link>
             </Navbar.Content>
         </Navbar>

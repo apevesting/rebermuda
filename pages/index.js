@@ -20,7 +20,7 @@ export default function Home() {
         <Container md>
           <div className="md:mt-20 items-center grid grid-cols-1 auto-rows-auto md:grid-cols-2 md:grid-rows-1 gap-8">
             <div>
-              <p className="fancyTitle font-extrabold text-4xl md:text-5xl leading-normal mb-5">Premium Bermuda real estate consultancy.</p>
+              <p className="fancyTitle font-extrabold text-4xl md:text-5xl leading-normal mb-5">Real estate consultancy</p>
               <div className="flex-col">
                 <p className="text-xs md:text-sm leading-loose">
                   Real estate is still a relatively safe harbor, an asset class influenced by value creation and investor interest for the short or long-term.  
