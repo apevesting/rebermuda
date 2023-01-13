@@ -10,7 +10,7 @@ const About = () => {
     return(
         <>
             <Head>
-                <title>re/Bermuda - What we do</title>
+                <title>re/Bermuda - About re/Bermuda; what we do and why</title>
                 <meta name="description" content="Premium Bermuda real estate consultancy." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
@@ -46,15 +46,17 @@ const About = () => {
                 <CoreValues/>
             </section>
 
-            <section className="grid grid-cols-1 grid-rows-2 gap-2 items-center justify-center my-50">
-                <div className="flex justify-center">
-                    <p className="fancyTitle text-center w-full md:w-1/2 text-xl md:text-6xl leading-loose">Start your real estate journey today.</p>
+            <section className="grid grid-cols-1 grid-rows-2 gap-4 items-center justify-center">
+                <div className="my-25">
+                    <div className="flex justify-center">
+                        <p className="fancyTitle text-center w-full md:w-1/2 text-xl md:text-6xl leading-loose">Start your real estate journey today.</p>
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <a className="my-5 border border-black text-xs md:text-sm px-6 py-2 hover:bg-black hover:text-white" href="mailto:info@rebermuda.com">
+                            Contact Us
+                        </a>
+                    </div>
                 </div>
-                <div className="flex justify-center items-center my-2.5">
-                    <a className="border border-black text-xs md:text-sm px-6 py-2 hover:bg-black hover:text-white" href="mailto:info@rebermuda.com">
-                        Contact Us
-                    </a>
-               </div>
             </section>
 
             <Footer/>
