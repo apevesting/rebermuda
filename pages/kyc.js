@@ -18,8 +18,9 @@ const KYC = () => {
                 <meta name="robots" content="noindex"/>
                 <meta name="googlebot" content="noindex"/>
                 <link rel="icon" href="/favicon.ico" />
-                <Script src="https://unpkg.com/flowbite@1.6.0/dist/datepicker.js"/>
             </Head>
+
+            <Script src="https://unpkg.com/flowbite@1.6.0/dist/datepicker.js"/>
 
             <Container xs>
                 <div className="my-10">
